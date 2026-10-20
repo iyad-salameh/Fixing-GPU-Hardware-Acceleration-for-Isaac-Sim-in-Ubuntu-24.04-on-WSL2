@@ -83,8 +83,5 @@ source ~/.bashrc
 
 ---
 
-## Key Lessons Learned
+<img width="2752" height="1536" alt="image" src="https://github.com/user-attachments/assets/982d84eb-7a6b-4812-933c-8019d09938e1" />
 
-1. CUDA Passthrough is not Graphics Acceleration: CUDA compute talks directly to `libcuda.so`, whereas OpenGL and Vulkan require Mesa translation layers to bridge Linux calls into Direct3D 12.
-2. Do Not Blame Host Drivers First: In WSL2, `ERROR_INCOMPATIBLE_DRIVER` usually indicates that Linux is trying to read Windows `.dll` binaries directly rather than utilizing a Mesa translation layer.
-3. Keep Mesa Up-to-Date: Distro-provided Mesa packages in Ubuntu LTS releases may lag behind required Direct3D 12 / Dozen features.
