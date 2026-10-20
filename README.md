@@ -1,4 +1,4 @@
-@ -0,0 +1,89 @@
+
 # Fixing GPU Hardware Acceleration for Isaac Sim in Ubuntu 24.04 on WSL2
 
 A technical post-mortem and setup guide detailing how to diagnose and resolve **OpenGL & Vulkan software rendering fallbacks (`llvmpipe`)** when running graphical robotics applications like **NVIDIA Isaac Sim**, **Gazebo**, and **RViz** inside Ubuntu 24.04 LTS under WSL2.
